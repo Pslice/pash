@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+}
+.screen{
+    border: ivory 2px solid;
+    height: 100px;
+    width: 500px;
+    margin: 0px auto;
+}
+.terminal{
+    background-color: transparent;
+    border: none;
+    width: 500px;
+    color:mintcream;
+    font-family: monospace;
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    outline: none;
+}
