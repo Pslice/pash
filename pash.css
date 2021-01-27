@@ -6,11 +6,12 @@ body{
     height: 100px;
     width: 500px;
     margin: 0px auto;
+    display: flexbox;
 }
 .terminal{
     background-color: transparent;
     border: none;
-    width: 500px;
+    width: 495px;
     color:mintcream;
     font-family: monospace;
     user-select: none;
@@ -19,4 +20,8 @@ body{
     -webkit-user-select: none;
     -o-user-select: none;
     outline: none;
+}
+.terminal::before{
+    content:"$";
+    color:mintcream;
 }
