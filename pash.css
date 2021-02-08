@@ -9,9 +9,9 @@ body{
     display: flexbox;
 }
 .terminal{
+    margin:5px;
     background-color: transparent;
     border: none;
-    width: 495px;
     color:mintcream;
     font-family: monospace;
     user-select: none;
@@ -20,4 +20,15 @@ body{
     -webkit-user-select: none;
     -o-user-select: none;
     outline: none;
+}
+.terminal label{
+    font-weight: bold;
+    width:20%;
+}
+.terminal input{
+    width: 80%;
+}
+.last-command{
+    width:100%;
+    margin: 10px;
 }
