@@ -21,7 +21,3 @@ body{
     -o-user-select: none;
     outline: none;
 }
-.terminal::before{
-    content:"$";
-    color:mintcream;
-}
