@@ -1,0 +1,19 @@
+{
+  "name": "pash",
+  "version": "1.0.0",
+  "description": "Patrick's Awesome Shell",
+  "main": "pash.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pslice/pash.git"
+  },
+  "author": "Patrick Cool",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pslice/pash/issues"
+  },
+  "homepage": "https://github.com/Pslice/pash#readme"
+}
