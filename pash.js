@@ -9,12 +9,6 @@ var pash = function (terminal) {
         }
     });
 
-    // var display = function (response) {
-    //     terminal.html("");
-    // }
-    // return {
-    //     display: display,
-    // };
 }
     (function () {
         var start = new pash;
