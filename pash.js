@@ -5,7 +5,12 @@ var pash = function (terminal) {
     var displayLast = document.getElementsByClassName('last-command');
     psh.addEventListener('keypress', function (e) {
         if (e.key === 'Enter') {
-            displayLast[0].innerHTML = `${displayLast[0].innerHTML}<p id="p${lineCount}"> ${psh.value}`;
+            lineCount++
+            if (lineCount % 4 === 0) {
+                var removeLine = document.getElementById('p' + lineCount);
+                removeLine.remove;
+            }
+            displayLast[0].innerHTML = `${displayLast[0].innerHTML}<b id="p${lineCount}"> ${psh.value}<br></b>`;
             psh.value = '';
         }
     });
