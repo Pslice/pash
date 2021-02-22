@@ -7,7 +7,7 @@ var pash = function (terminal) {
         if (e.key === 'Enter') {
             lineCount++
             if (lineCount % 4 === 0) {
-                var removeLine = document.getElementById('p' + lineCount - 4);
+                var removeLine = document.getElementById('p' + (lineCount - 4));
                 removeLine.remove();
             }
             displayLast[0].innerHTML = `${displayLast[0].innerHTML}<b id="p${lineCount}"> ${psh.value}<br></b>`;
